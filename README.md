@@ -1,5 +1,5 @@
 # minesweeperfx
-My first ever project. Made with java and javafx.
+My first ever project (spring 2021). Made with java and javafx.
 
 ## How to run
 ```
