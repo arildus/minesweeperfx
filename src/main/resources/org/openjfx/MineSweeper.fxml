@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="200.0" minWidth="200.0" prefHeight="675.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Controller">
+   <children>
+      <TilePane fx:id="board" layoutX="75.0" layoutY="144.0" maxHeight="500.0" maxWidth="500.0" minHeight="500.0" minWidth="500.0" prefColumns="16" prefHeight="500.0" prefRows="16" prefWidth="500.0" />
+      <Button fx:id="easyButton" layoutX="41.0" layoutY="43.0" mnemonicParsing="false" text="Easy" />
+      <Button fx:id="mediumButton" layoutX="93.0" layoutY="43.0" mnemonicParsing="false" text="Medium" />
+      <Button fx:id="hardButton" layoutX="164.0" layoutY="43.0" mnemonicParsing="false" text="Hard" />
+      <Button fx:id="expertButton" layoutX="219.0" layoutY="43.0" mnemonicParsing="false" text="Expert" />
+      <Button fx:id="resetGameButton" layoutX="276.0" layoutY="43.0" mnemonicParsing="false" text="Reset Game" />
+      <Button fx:id="saveButton" layoutX="505.0" layoutY="14.0" mnemonicParsing="false" text="Save" />
+      <Label fx:id="infoField" layoutX="356.0" layoutY="82.0" prefHeight="38.0" prefWidth="281.0" text="Press a tile to generate a new, randomized board!" />
+      <Label layoutX="61.0" layoutY="88.0" prefHeight="26.0" prefWidth="158.0" text="Number of tiles made visible: " />
+      <Label fx:id="tilesMadeVisible" layoutX="219.0" layoutY="92.0" text="0" />
+      <Button fx:id="loadButton" layoutX="557.0" layoutY="14.0" mnemonicParsing="false" text="Load" />
+      <TextField fx:id="fileLocationField" layoutX="423.0" layoutY="56.0" />
+      <Button fx:id="browseButton" layoutX="578.0" layoutY="56.0" mnemonicParsing="false" text="Browse" />
+      <Label fx:id="gameStatusLabel" contentDisplay="TOP" layoutX="227.0" layoutY="300.0" prefHeight="38.0" prefWidth="196.0" text="Game over!" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
